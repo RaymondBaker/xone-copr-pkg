@@ -36,17 +36,13 @@ Microsoft's Game Input Protocol (GIP).
 This package contains the kmod module for %{prjname}.
 
 %prep
-#%autosetup -n %{prjname}-%{commit}
-# error out if there was something wrong with kmodtool
 %{?kmodtool_check}
-# akmod needs spec file here
-#mkdir -p %{_specdir}
-#cp %{_sourcedir}/%{name}.spec %{_specdir}/
 
 
 # print kmodtool output for debugging purposes:
 kmodtool  --target %{_target_cpu} --kmodname %{prjname} %{?buildforkernels:--%{buildforkernels}} %{?kernels:--for-kernels "%{?kernels}"} 2>/dev/null
 
+%setup -q -c
 
 for kernel_version  in %{?kernel_versions} ; do
   cp -a xone-%{commit} _kmod_build_${kernel_version%%___*}

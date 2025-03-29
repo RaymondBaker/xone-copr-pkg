@@ -1,0 +1,200 @@
+Mock Version: 6.1
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bs  --target x86_64 --nodeps /builddir/build/SPECS/xpad-noone.spec'], chrootPath='/var/lib/mock/fedora-rawhide-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f873cbd3c50>timeout=0uid=1000gid=135user='mockbuild'unshare_net=TrueprintOutput=Truenspawn_args=['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.iykvavgv:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11'])
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.iykvavgv:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'aeeeebe6a66f4b799feabdae09de0d0a', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.iykvavgv:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs  --target x86_64 --nodeps /builddir/build/SPECS/xpad-noone.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1721692800
+Wrote: /builddir/build/SRPMS/xpad-noone-1-3.fc43.src.rpm
+Child return code was: 0
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bb  --target x86_64 --nodeps /builddir/build/SPECS/xpad-noone.spec'], chrootPath='/var/lib/mock/fedora-rawhide-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f873cbd3c50>timeout=0uid=1000gid=135user='mockbuild'unshare_net=TrueprintOutput=Truenspawn_args=['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.iykvavgv:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11'])
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.iykvavgv:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '86b17b79ad034443ad13939fe6f22d24', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.iykvavgv:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bb  --target x86_64 --nodeps /builddir/build/SPECS/xpad-noone.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1721692800
+Executing(%mkbuilddir): /bin/sh -e /var/tmp/rpm-tmp.0ZWyos
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.dcd8RG
++ umask 022
++ cd /builddir/build/BUILD/xpad-noone-1-build
++ kmodtool --target x86_64 --kmodname xpad-noone --akmod
+%{?rhel:%global with_rhel_kabi 1}
+%if 0%{?rhel} || 0%{?fedora}
+%global kmod_pkg_name kmod-xpad-noone
+%global pkg_kmod_name xpad-noone-kmod
+%{?obsolete_name:%global kmod_obsolete_name kmod-%{obsolete_name}}
+%endif
+%global akmod_install mkdir -p $RPM_BUILD_ROOT/%{_usrsrc}/akmods/; \rpmbuild --define "_sourcedir %{_sourcedir}" \--define "_srcrpmdir $RPM_BUILD_ROOT/%{_usrsrc}/akmods/" \%{?dist:--define 'dist %{dist}}' \-bs --nodeps %{_specdir}/%{name}.spec ; \ln -s $(ls $RPM_BUILD_ROOT/%{_usrsrc}/akmods/) $RPM_BUILD_ROOT/%{_usrsrc}/akmods/%{pkg_kmod_name}.latest
+%package       -n akmod-xpad-noone
+Summary:          Akmod package for xpad-noone kernel module(s)
+Requires:         kmodtool
+Requires:         akmods
+%{?AkmodsBuildRequires:Requires: %{AkmodsBuildRequires}}
+# same requires and provides as a kmods package would have
+Requires:         %{pkg_kmod_name}-common >= %{?epoch:%{epoch}:}%{version}
+Provides:         %{pkg_kmod_name} = %{?epoch:%{epoch}:}%{version}-%{release}
+%description   -n akmod-xpad-noone
+This package provides the akmod package for the xpad-noone kernel modules.
+%posttrans     -n akmod-xpad-noone
+nohup /usr/sbin/akmods --from-akmod-posttrans --akmod xpad-noone &> /dev/null &
+%post     -n akmod-xpad-noone
+[ -x /usr/sbin/akmods-ostree-post ] && /usr/sbin/akmods-ostree-post xpad-noone %{_usrsrc}/akmods/%{pkg_kmod_name}-%{version}-%{release}.src.rpm
+%files         -n akmod-xpad-noone
+%defattr(-,root,root,-)
+%{_usrsrc}/akmods/*
+%package       -n %{kmod_pkg_name}
+Summary:          Metapackage which tracks in xpad-noone kernel module for newest kernel
+Provides:         %{pkg_kmod_name} = %{?epoch:%{epoch}:}%{version}-%{release}
+Provides:         %{kmod_pkg_name}-xen = %{?epoch:%{epoch}:}%{version}-%{release}
+Provides:         %{kmod_pkg_name}-smp = %{?epoch:%{epoch}:}%{version}-%{release}
+Provides:         %{kmod_pkg_name}-PAE = %{?epoch:%{epoch}:}%{version}-%{release}
+Requires:         akmod-xpad-noone = %{?epoch:%{epoch}:}%{version}-%{release}
+%description   -n %{kmod_pkg_name}
+This is a meta-package without payload which sole purpose is to require the
+xpad-noone kernel module(s) for the newest kernel,
+to make sure you get it together with a new kernel.
+%files         -n %{kmod_pkg_name}
+%defattr(644,root,root,755)
++ cd /builddir/build/BUILD/xpad-noone-1-build
++ rm -rf xpad-noone-1
++ /usr/bin/mkdir -p xpad-noone-1
++ cd xpad-noone-1
++ /usr/lib/rpm/rpmuncompress -x /builddir/build/SOURCES/xpad-noone-c3d1610.tar.gz
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.EkQusl
++ umask 022
++ cd /builddir/build/BUILD/xpad-noone-1-build
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FCFLAGS
++ VALAFLAGS=-g
++ export VALAFLAGS
++ RUSTFLAGS='-Copt-level=3 -Cdebuginfo=2 -Ccodegen-units=1 -Cstrip=none -Cforce-frame-pointers=yes -Clink-arg=-specs=/usr/lib/rpm/redhat/redhat-package-notes --cap-lints=warn'
++ export RUSTFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd xpad-noone-1
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.3l8g4U
++ umask 022
++ cd /builddir/build/BUILD/xpad-noone-1-build
++ '[' /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT '!=' / ']'
++ rm -rf /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT
+++ dirname /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT
++ mkdir -p /builddir/build/BUILD/xpad-noone-1-build
++ mkdir /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer '
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -mtls-dialect=gnu2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -I/usr/lib64/gfortran/modules '
++ export FCFLAGS
++ VALAFLAGS=-g
++ export VALAFLAGS
++ RUSTFLAGS='-Copt-level=3 -Cdebuginfo=2 -Ccodegen-units=1 -Cstrip=none -Cforce-frame-pointers=yes -Clink-arg=-specs=/usr/lib/rpm/redhat/redhat-package-notes --cap-lints=warn'
++ export RUSTFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,pack-relative-relocs -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes '
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ cd xpad-noone-1
++ mkdir -p /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT//usr/src/akmods/
++ rpmbuild --define '_sourcedir /builddir/build/SOURCES' --define '_srcrpmdir /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT//usr/src/akmods/' --define 'dist .fc43' -bs --nodeps /builddir/build/SPECS/xpad-noone.spec
+Wrote: /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT/usr/src/akmods/xpad-noone-1-3.fc43.src.rpm
+++ ls /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT//usr/src/akmods/
++ ln -s xpad-noone-1-3.fc43.src.rpm /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT//usr/src/akmods/xpad-noone-kmod.latest
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/check-rpaths
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
++ /usr/lib/rpm/brp-remove-la-files
++ /usr/lib/rpm/redhat/brp-python-rpm-in-distinfo
++ env /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0 -j4
++ /usr/lib/rpm/redhat/brp-python-hardlink
++ /usr/bin/add-determinism --brp -j4 /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT
+Scanned 4 directories and 2 files,
+               processed 0 inodes,
+               0 modified (0 replaced + 0 rewritten),
+               0 unsupported format, 0 errors
+Reading /builddir/build/BUILD/xpad-noone-1-build/SPECPARTS/rpm-debuginfo.specpart
+Processing files: xpad-noone-1-3.fc43.x86_64
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.GWOqiC
++ umask 022
++ cd /builddir/build/BUILD/xpad-noone-1-build
++ cd xpad-noone-1
++ DOCDIR=/builddir/build/BUILD/xpad-noone-1-build/BUILDROOT/usr/share/doc/xpad-noone
++ export LC_ALL=C.UTF-8
++ LC_ALL=C.UTF-8
++ export DOCDIR
++ /usr/bin/mkdir -p /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT/usr/share/doc/xpad-noone
++ cp -pr /builddir/build/BUILD/xpad-noone-1-build/xpad-noone-1/xpad-noone-c3d1610/README.md /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT/usr/share/doc/xpad-noone
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%license): /bin/sh -e /var/tmp/rpm-tmp.F4f0tt
++ umask 022
++ cd /builddir/build/BUILD/xpad-noone-1-build
++ cd xpad-noone-1
++ LICENSEDIR=/builddir/build/BUILD/xpad-noone-1-build/BUILDROOT/usr/share/licenses/xpad-noone
++ export LC_ALL=C.UTF-8
++ LC_ALL=C.UTF-8
++ export LICENSEDIR
++ /usr/bin/mkdir -p /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT/usr/share/licenses/xpad-noone
++ cp -pr /builddir/build/BUILD/xpad-noone-1-build/xpad-noone-1/xpad-noone-c3d1610/LICENSE /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT/usr/share/licenses/xpad-noone
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Provides: xpad-noone = 1-3.fc43 xpad-noone(x86-64) = 1-3.fc43 xpad-noone-kmod-common = 1-3.fc43
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Conflicts: xow <= 0.5
+Obsoletes: xow <= 0.5
+Processing files: akmod-xpad-noone-1-3.fc43.x86_64
+Provides: akmod-xpad-noone = 1-3.fc43 akmod-xpad-noone(x86-64) = 1-3.fc43 xpad-noone-kmod = 1-3.fc43
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh
+Requires(posttrans): /bin/sh
+Processing files: kmod-xpad-noone-1-3.fc43.x86_64
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILD/xpad-noone-1-build/BUILDROOT
+Wrote: /builddir/build/RPMS/kmod-xpad-noone-1-3.fc43.x86_64.rpm
+Wrote: /builddir/build/RPMS/xpad-noone-1-3.fc43.x86_64.rpm
+Wrote: /builddir/build/RPMS/akmod-xpad-noone-1-3.fc43.x86_64.rpm
+Executing(rmbuild): /bin/sh -e /var/tmp/rpm-tmp.hEuXoi
++ umask 022
++ cd /builddir/build/BUILD/xpad-noone-1-build
++ test -d /builddir/build/BUILD/xpad-noone-1-build
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w /builddir/build/BUILD/xpad-noone-1-build
++ rm -rf /builddir/build/BUILD/xpad-noone-1-build
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Child return code was: 0

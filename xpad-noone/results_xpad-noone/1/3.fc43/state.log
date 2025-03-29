@@ -1,0 +1,24 @@
+2025-03-28 23:01:07,122 - Mock Version: 6.1
+2025-03-28 23:01:07,146 - Start(bootstrap): chroot init
+2025-03-28 23:01:07,254 - Start(bootstrap): cleaning package manager metadata
+2025-03-28 23:01:07,255 - Finish(bootstrap): cleaning package manager metadata
+2025-03-28 23:01:08,049 - Finish(bootstrap): chroot init
+2025-03-28 23:01:08,061 - Start: chroot init
+2025-03-28 23:01:08,108 - Start: unpacking root cache
+2025-03-28 23:01:09,327 - Finish: unpacking root cache
+2025-03-28 23:01:09,345 - Start: cleaning package manager metadata
+2025-03-28 23:01:09,349 - Finish: cleaning package manager metadata
+2025-03-28 23:01:10,441 - Start: dnf5 update
+2025-03-28 23:01:13,040 - Finish: dnf5 update
+2025-03-28 23:01:13,598 - Finish: chroot init
+2025-03-28 23:01:13,605 - Start: build phase for xpad-noone-1-3.fc43.src.rpm
+2025-03-28 23:01:13,608 - Start: build setup for xpad-noone-1-3.fc43.src.rpm
+2025-03-28 23:01:20,376 - Finish: build setup for xpad-noone-1-3.fc43.src.rpm
+2025-03-28 23:01:20,378 - Start: rpmbuild xpad-noone-1-3.fc43.src.rpm
+2025-03-28 23:01:20,388 - Start: Outputting list of installed packages
+2025-03-28 23:01:20,754 - Finish: Outputting list of installed packages
+2025-03-28 23:01:21,445 - Finish: rpmbuild xpad-noone-1-3.fc43.src.rpm
+2025-03-28 23:01:21,455 - Finish: build phase for xpad-noone-1-3.fc43.src.rpm
+2025-03-28 23:01:21,466 - Start: clean chroot
+2025-03-28 23:01:27,652 - Finish: clean chroot
+2025-03-28 23:01:27,655 - Finish: run

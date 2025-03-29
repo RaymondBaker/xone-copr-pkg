@@ -1,0 +1,26 @@
+2025-03-28 22:45:18,181 - Mock Version: 6.1
+2025-03-28 22:45:18,206 - Start(bootstrap): chroot init
+2025-03-28 22:45:18,272 - Start(bootstrap): cleaning package manager metadata
+2025-03-28 22:45:18,272 - Finish(bootstrap): cleaning package manager metadata
+2025-03-28 22:45:28,251 - Start(bootstrap): creating root cache
+2025-03-28 22:45:30,044 - Finish(bootstrap): creating root cache
+2025-03-28 22:45:30,047 - Finish(bootstrap): chroot init
+2025-03-28 22:45:30,060 - Start: chroot init
+2025-03-28 22:45:30,125 - Start: cleaning package manager metadata
+2025-03-28 22:45:30,125 - Finish: cleaning package manager metadata
+2025-03-28 22:45:30,920 - Start: installing minimal buildroot with dnf5
+2025-03-28 22:45:58,503 - Finish: installing minimal buildroot with dnf5
+2025-03-28 22:45:58,965 - Start: creating root cache
+2025-03-28 22:46:00,983 - Finish: creating root cache
+2025-03-28 22:46:00,986 - Finish: chroot init
+2025-03-28 22:46:01,342 - Start: build phase for lpf-xone-firmware-0.3-2.fc43.src.rpm
+2025-03-28 22:46:01,346 - Start: build setup for lpf-xone-firmware-0.3-2.fc43.src.rpm
+2025-03-28 22:46:34,081 - Finish: build setup for lpf-xone-firmware-0.3-2.fc43.src.rpm
+2025-03-28 22:46:34,083 - Start: rpmbuild lpf-xone-firmware-0.3-2.fc43.src.rpm
+2025-03-28 22:46:34,091 - Start: Outputting list of installed packages
+2025-03-28 22:46:34,550 - Finish: Outputting list of installed packages
+2025-03-28 22:46:35,319 - Finish: rpmbuild lpf-xone-firmware-0.3-2.fc43.src.rpm
+2025-03-28 22:46:35,331 - Finish: build phase for lpf-xone-firmware-0.3-2.fc43.src.rpm
+2025-03-28 22:46:35,342 - Start: clean chroot
+2025-03-28 22:46:45,841 - Finish: clean chroot
+2025-03-28 22:46:45,844 - Finish: run

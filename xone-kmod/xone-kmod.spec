@@ -11,7 +11,7 @@
 Name:           %{prjname}-kmod
 Summary:        Kernel module (kmod) for %{prjname}
 Version:        0.3.0
-Release:        9%{?dist}
+Release:        10%{?dist}
 Epoch:          1
 License:        GPLv2+
 
@@ -65,6 +65,9 @@ done
 
 
 %changelog
+* Sat Mar 29 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-10
+- fix package
+
 * Thu Mar 27 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-9
 - move to dlundqvist fork
 

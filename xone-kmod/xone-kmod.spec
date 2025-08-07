@@ -3,7 +3,7 @@
 %endif
 %global debug_package %{nil}
 
-%global commit aeb27e6d98f7b22b3672701af6171612254a4d0c
+%global commit cb4c3d2ea3259c42634e99e66828b85287a9f2a1
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 %global prjname xone
@@ -11,7 +11,7 @@
 Name:           %{prjname}-kmod
 Summary:        Kernel module (kmod) for %{prjname}
 Version:        0.3.0
-Release:        10%{?dist}
+Release:        11%{?dist}
 Epoch:          1
 License:        GPLv2+
 
@@ -65,6 +65,9 @@ done
 
 
 %changelog
+* Wed Aug 06 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-11
+- Update to V0.4.1
+
 * Sat Mar 29 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-10
 - fix package
 

@@ -50,7 +50,7 @@ install -D -m 0644 %{SOURCE1} %{buildroot}%{_modulesloaddir}/%{name}.conf
 %{_modulesloaddir}/%{name}.conf
 
 %changelog
-* Thu Mar 27 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-10
+* Wed Aug 06 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-10
 - Update to v0.4.1
 
 * Thu Mar 27 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-9

@@ -1,12 +1,12 @@
 %global debug_package %{nil}
 %global shortversion 0.3
 
-%global commit aeb27e6d98f7b22b3672701af6171612254a4d0c
+%global commit cb4c3d2ea3259c42634e99e66828b85287a9f2a1
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 Name:     xone
 Version:  0.3.0
-Release:  9%{?dist}
+Release:  10%{?dist}
 Epoch:    1
 Summary:  Linux kernel driver for Xbox One and Xbox Series X|S accessories
 License:  GPLv2
@@ -50,6 +50,9 @@ install -D -m 0644 %{SOURCE1} %{buildroot}%{_modulesloaddir}/%{name}.conf
 %{_modulesloaddir}/%{name}.conf
 
 %changelog
+* Thu Mar 27 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-10
+- Update to v0.4.1
+
 * Thu Mar 27 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-9
 - move to dlundqvist fork
 

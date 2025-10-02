@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 %global shortversion 0.3
 
-%global commit cb4c3d2ea3259c42634e99e66828b85287a9f2a1
+%global commit 29033e16226bea4458b53fffc6177b95f6907f26
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 Name:     xone
@@ -50,6 +50,10 @@ install -D -m 0644 %{SOURCE1} %{buildroot}%{_modulesloaddir}/%{name}.conf
 %{_modulesloaddir}/%{name}.conf
 
 %changelog
+
+* Thu Oct 02 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-11
+- Update to v0.4.5
+
 * Wed Aug 06 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-10
 - Update to v0.4.1
 

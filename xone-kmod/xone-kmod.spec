@@ -11,7 +11,7 @@
 Name:           %{prjname}-kmod
 Summary:        Kernel module (kmod) for %{prjname}
 Version:        0.3.0
-Release:        12%{?dist}
+Release:        13%{?dist}
 Epoch:          1
 License:        GPLv2+
 
@@ -65,6 +65,9 @@ done
 
 
 %changelog
+
+* Thu Oct 02 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-13
+- fix pkg
 
 * Thu Oct 02 2025 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-12
 - Update to V0.4.5

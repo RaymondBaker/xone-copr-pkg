@@ -6,7 +6,7 @@
 
 Name:     xone
 Version:  0.3.0
-Release:  10%{?dist}
+Release:  11%{?dist}
 Epoch:    1
 Summary:  Linux kernel driver for Xbox One and Xbox Series X|S accessories
 License:  GPLv2

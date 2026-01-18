@@ -6,7 +6,7 @@
 
 Name:     xone
 Version:  0.3.0
-Release:  12%{?dist}
+Release:  13%{?dist}
 Epoch:    1
 Summary:  Linux kernel driver for Xbox One and Xbox Series X|S accessories
 License:  GPLv2
@@ -50,6 +50,9 @@ install -D -m 0644 %{SOURCE1} %{buildroot}%{_modulesloaddir}/%{name}.conf
 %{_modulesloaddir}/%{name}.conf
 
 %changelog
+* Sun Jan 18 2026 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-13
+- Fix pkg
+
 * Sun Jan 18 2026 Jan200101 <raymond_baker@hotmail.com> - 1:0.3.0-12
 - Update to v0.5.2
 
